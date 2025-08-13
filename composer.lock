@@ -4,8 +4,47 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4231816758d18f8f48a8c8f63e979519",
+    "content-hash": "cd0cc83890f03b9eb6bd35355d419af4",
     "packages": [
+        {
+            "name": "beeboio/atproto-php",
+            "version": "0.0.1",
+            "dist": {
+                "type": "path",
+                "url": "./lib/beeboio/atproto-php",
+                "reference": "eb985f6014122bad8edc9591ad6a6629dc880aa8"
+            },
+            "require": {
+                "composer/installers": "^2.0",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BeeboIO\\ATProto\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "BeeboIO\\ATProto\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Collegeman",
+                    "email": "yo@aaroncollegeman.com"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "composer/installers",
             "version": "v2.3.0",

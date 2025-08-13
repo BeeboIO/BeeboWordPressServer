@@ -12,7 +12,8 @@
     ],
     "require": {
         "php": ">=8.0",
-        "composer/installers": "^2.0"
+        "composer/installers": "^2.0",
+        "beeboio/atproto-php": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
@@ -34,5 +35,11 @@
         "allow-plugins": {
             "composer/installers": true
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./lib/beeboio/atproto-php"
+        }
+    ]
 }

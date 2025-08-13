@@ -10,6 +10,15 @@
         'dev' => true,
     ),
     'versions' => array(
+        'beeboio/atproto-php' => array(
+            'pretty_version' => '0.0.1',
+            'version' => '0.0.1.0',
+            'reference' => 'eb985f6014122bad8edc9591ad6a6629dc880aa8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../beeboio/atproto-php',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'beeboio/beebo-wordpress-server' => array(
             'pretty_version' => '1.0.0',
             'version' => '1.0.0.0',

@@ -29,6 +29,7 @@ class ComposerStaticInit7049e2e5571303bca0ccf1cef2dbef31
         array (
             'BeeboIO\\WordPress\\Server\\Tests\\' => 31,
             'BeeboIO\\WordPress\\Server\\' => 25,
+            'BeeboIO\\ATProto\\' => 16,
         ),
     );
 
@@ -56,6 +57,10 @@ class ComposerStaticInit7049e2e5571303bca0ccf1cef2dbef31
         'BeeboIO\\WordPress\\Server\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'BeeboIO\\ATProto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/beeboio/atproto-php/src',
         ),
     );
 

@@ -12,4 +12,5 @@ return array(
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
     'BeeboIO\\WordPress\\Server\\Tests\\' => array($baseDir . '/tests'),
     'BeeboIO\\WordPress\\Server\\' => array($baseDir . '/src'),
+    'BeeboIO\\ATProto\\' => array($vendorDir . '/beeboio/atproto-php/src'),
 );
