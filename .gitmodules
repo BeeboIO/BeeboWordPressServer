@@ -1,0 +1,3 @@
+[submodule "vendor/beeboio/atproto-php"]
+	path = vendor/beeboio/atproto-php
+	url = git@github.com:BeeboIO/ATProtoPHP.git
